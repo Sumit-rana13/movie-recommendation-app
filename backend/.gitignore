@@ -1,0 +1,5 @@
+# environment variables
+.env
+.env.local
+movies.db
+node_modules
