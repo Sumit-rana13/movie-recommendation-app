@@ -1,5 +1,7 @@
+const API_URL = "https://movie-recommendation-app-pkvi.onrender.com/api/recommend";
+
 export async function fetchRecommendation(preference){
-    const res = await fetch("http://localhost:5000/api/recommend",{
+    const res = await fetch(API_URL,{
         method: "POST",
         headers: {
             "content-type": "application/json",
